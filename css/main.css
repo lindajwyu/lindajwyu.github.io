@@ -22,11 +22,6 @@ body {
   padding: 2%;
 }
 
-#highlight {
-  background-color: #C8FB85;
-  padding: 6px 6px;
-}
-
 /***************************
 FONTS
 ***************************/
@@ -50,6 +45,12 @@ li {
 
 #top {
   font-size: 1.1em;
+}
+
+#highlight {
+  color: #1828D6;
+  background-color: #C8FB85;
+  padding: 6px 6px;
 }
 
 /***************************
