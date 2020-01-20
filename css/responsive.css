@@ -45,6 +45,16 @@
       padding-top:0;
     }
 
+    .panel {
+      margin: 0;
+      padding: 0;
+    }
+
+    #description {
+      max-width: 100%;
+      margin-left: 0;
+    }
+
     img {
       max-width: 100%;
     }
