@@ -85,11 +85,12 @@ a {
   border: 2px solid #000869;
   padding-left: 3%;
   padding-right: 3%;
-  margin-left: 2%;
-  margin-right: 5%;
-  font-size: 0.9em;
+  margin-left: 5%;
+  margin-right: 15%;
+  font-size: 0.95em;
   line-height: 1.4em;
   font-family: 'Lato', sans-serif; 
+  text-align: justify;
 }
 
 #contact {
@@ -144,6 +145,14 @@ ACCORDION
   color: #fff;
   background-color: #000869;
   padding: 6px 6px;
+}
+
+.accordion:before{
+  content:"+  "
+}
+
+.active:before{
+  content:"–  "
 }
 
 .active {
