@@ -45,8 +45,8 @@ BACKGROUND & Fonts
 ***************************/
 
 body {
-  background: #F9FFDE;
-  color: #000869;
+  background: #fff;
+  color: #171616;
   font-size: 1.3em;
   line-height: 1.5em;
   font-family: 'Libre Caslon Text', serif; 
@@ -55,7 +55,7 @@ body {
 #textlogo {
   font-size: 1.2em;
   line-height: 2em;
-  color: #000869;
+  color: #171616;
   padding-right: 10%;
   padding-left: 25%;
   font-family: 'Lato', sans-serif; 
@@ -76,13 +76,17 @@ a {
   transition: 0.2s;
 }
 
+mark {
+  background-color: rgba(235,251,155,.5);
+}
+
 .sideb {
   padding-left: 3%;
   padding-top: 3%;
 }
 
 #skills {
-  border: 2px solid #000869;
+  border: 2px solid #4C3117;
   padding-left: 3%;
   padding-right: 3%;
   margin-left: 5%;
@@ -107,20 +111,23 @@ LINKS
 ***************************/
 
 a {
-  color: #000869;
+  color: #171616;
   text-decoration: none;
+  font-style:italic;
+
 }
 
 /* mouse over link */
 a:hover {
-  background-color: #000869;
-  color: #fff;
+  background-color: #EBFB9B;
+  color: #171616;
   padding: 6px 6px;
+  font-style:normal;
 }
 
 a:selected {
   color: #fff;
-  background-color: #000869;
+  background-color: #4C3117;
   padding: 6px 6px;
 }
 
@@ -130,9 +137,9 @@ ACCORDION
 
 .accordion {
   padding-left: -2%;
-  font-size: 1em;
-  background-color: #F9FFDE;
-  color: #000869;
+  font-size: 1.1em;
+  background-color: #fff;
+  color: #171616;
   font-family: 'Libre Caslon Text', serif; 
   cursor: pointer;
   text-align: left;
@@ -142,8 +149,8 @@ ACCORDION
 }
 
 .accordion:hover {
-  color: #fff;
-  background-color: #000869;
+  color: #171616;
+  background-color: #EBFB9B;
   padding: 6px 6px;
 }
 
@@ -161,7 +168,7 @@ ACCORDION
 
 .panel {
   padding: 0 18px;
-  background-color: #F9FFDE;
+  background-color: #fff;
   display: none;
   overflow: hidden;
 }
