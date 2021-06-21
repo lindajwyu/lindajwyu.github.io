@@ -52,6 +52,10 @@ body {
   font-family: 'Libre Caslon Text', serif; 
 }
 
+body::selection{
+  background-color: #EBFB9B;
+}
+
 #textlogo {
   font-size: 1.2em;
   line-height: 2em;
@@ -77,7 +81,43 @@ a {
 }
 
 mark {
-  background-color: rgba(235,251,155,.5);
+  background-color: #EBFB9B;
+}
+
+p::selection{
+  background-color: #EBFB9B;
+}
+
+u::selection{
+  background-color: #EBFB9B;
+}
+
+h1::selection{
+  background-color: #EBFB9B;
+}
+
+br::selection{
+  background-color: #EBFB9B;
+}
+
+div::selection{
+  background-color: #EBFB9B;
+}
+
+button::selection{
+  background-color: #EBFB9B;
+}
+
+span::selection{
+  background-color: #EBFB9B;
+}
+
+center::selection{
+  background-color: #EBFB9B;
+}
+
+img::selection{
+  background-color: #EBFB9B;
 }
 
 .sideb {
@@ -129,6 +169,10 @@ a:selected {
   color: #fff;
   background-color: #4C3117;
   padding: 6px 6px;
+}
+
+a::selection{
+  background-color: #EBFB9B;
 }
 
 /***************************
