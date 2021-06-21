@@ -120,6 +120,10 @@ img::selection{
   background-color: #EBFB9B;
 }
 
+i::selection{
+  background-color: #EBFB9B;
+}
+
 .sideb {
   padding-left: 3%;
   padding-top: 3%;
