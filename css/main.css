@@ -225,3 +225,34 @@ ACCORDION
   max-width: 80%;
   margin-left: 5%;
 }
+
+/***************************
+COOL BOX TRICK
+***************************/
+.cool{
+  position: relative;
+  overflow: hidden;
+  cursor:pointer;
+}
+
+.cool span {
+  position: relative;
+}
+
+.cool:before {
+  opacity: 0;
+  content: '';
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle closest-side, #EBFB9B, transparent);
+  transform: translate(-50%, -50%);
+  transition: opacity 2s ease;
+  -webkit-transition: opacity 2s;
+}
+
+.cool:hover:before {
+  opacity: 1;
+}
