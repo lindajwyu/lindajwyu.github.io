@@ -124,6 +124,13 @@ i::selection{
   background-color: #EBFB9B;
 }
 
+blockquote {
+  font-size: 1em;
+  padding-left: 1em;
+  border-left: 2px solid #000;
+}
+
+
 .sideb {
   padding-left: 3%;
   padding-top: 3%;
