@@ -88,6 +88,10 @@ p::selection{
   background-color: #EBFB9B;
 }
 
+blockquote::selection{
+  background-color: #EBFB9B;
+}
+
 u::selection{
   background-color: #EBFB9B;
 }
